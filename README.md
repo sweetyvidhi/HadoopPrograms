@@ -31,15 +31,7 @@ In the map task, String tokenizer class is used to retrieve each word.  Hence, e
 ##Performance of the application: 
 -	The application took around 7 minutes to complete using 16 nodes. When the nodes were changed there were almost a linear increase in the performance. 
 
-
-No : of nodes            |               Execution time(in minutes)
-  
-       4                            19                  
-       
-       8                            13                 
-       
-      16                            7                    
-      
+    
       
       **No: of nodes**                         4           8         16
       **Execution time(in minutes)**          19          13          7
