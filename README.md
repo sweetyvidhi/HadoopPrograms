@@ -37,7 +37,7 @@ In the map task, String tokenizer class is used to retrieve each word.  Hence, e
        
        8	                      13                 
        
-      16                         7                    
+      16                               7                    
       
 
 This shows that the performance increases almost linearly with the number of nodes. But as the number of nodes is increased, the number of map tasks and reduce tasks is increased, which causes an overhead time too. Hence, the performance is not clearly linear.
