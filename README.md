@@ -41,7 +41,7 @@ No : of nodes            |               Execution time(in minutes)
       16                            7                    
       
       
-      No: of nodes          4         8         16
+      No: of nodes                        4         8         16
       Execution time(in minutes)          19          13          7
 
 This shows that the performance increases almost linearly with the number of nodes. But as the number of nodes is increased, the number of map tasks and reduce tasks is increased, which causes an overhead time too. Hence, the performance is not clearly linear.
